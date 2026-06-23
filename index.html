@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>La Roche-Posay - Dermatological Skincare</title>
+
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>  
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
+    <!-- Kontras Tinggi: Dark Mode Premium dengan Aksen Biru La Roche-Posay -->
+    <style>
+        /* Background Hitam Pekat Mutlak */
+        body, #tm-bg {
+            background-color: #0d0d0d !important; 
+            background-image: none !important;
+        }
+        
+        /* Kontras Teks Kiri */
+        .tm-site-header h1 {
+            color: #ffffff !important;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .tm-site-header p {
+            color: #a0a0a0 !important; 
+        }
+
+        /* Membuat Kotak Menu Navigasi Kontras di Atas Hitam */
+        .grid__item .tm-nav-link {
+            background: #1a1a1a !important; /* Abu-abu sangat gelap agar kotak menu terlihat kontras */
+            border: 1px solid #333 !important;
+            transition: all 0.3s ease;
+        }
+        
+        /* Efek Hover Menu ala Brand La Roche-Posay (Biru Khas) */
+        .grid__item:hover .tm-nav-link {
+            background: #007bc4 !important; /* Biru khas La Roche-Posay */
+            border-color: #007bc4 !important;
+        }
+        .grid__item:hover .tm-nav-icon, 
+        .grid__item:hover .tm-nav-text {
+            color: #ffffff !important;
+        }
+
+        /* Warna Ikon & Teks Menu Default */
+        .tm-nav-icon { color: #007bc4 !important; }
+        .tm-nav-text { color: #ffffff !important; }
+
+        /* Styling Konten Pop-up agar Nyaman Dibaca */
+        .product__description {
+            background: #1e1e1e !important;
+            color: #e0e0e0 !important;
+            border: 1px solid #2d2d2d;
+        }
+        .tm-page-title {
+            color: #007bc4 !important;
+            font-weight: 600;
+        }
+        .text-brand {
+            color: #007bc4;
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        document.documentElement.className="js";
+        var supportsCssVars=function(){
+            var e,t=document.createElement("style");
+            return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e
+        };
+        supportsCssVars()||alert("Please view this in a modern browser such as latest version of Chrome or Microsoft Edge.");
+    </script>
+</head>
+
+<body>
+    <div id="tm-bg"></div>
+    <div id="tm-wrap">
+        <div class="tm-main-content">
+            <div class="container tm-site-header-container">
+                <div class="row">
+                    
+                    <!-- Kolom Kiri: Branding Utama -->
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col">
+                        <div class="tm-site-header">
+                            <h1 class="mb-4">LA ROCHE-POSAY</h1>
+                            <img src="img/cica 11.jpeg" class="img-fluid mb-4" alt="La Roche-Posay Brand Hero" onerror="this.src='https://via.placeholder.com/500x300/1a1a1a/ffffff?text=La+Roche-Posay+Skincare'">
+                            <p>Rekomendasi oleh lebih dari 90.000 dermatolog di seluruh dunia. Kami menghadirkan solusi perawatan kulit sensitif dengan landasan sains dan Thermal Spring Water yang murni.</p>        
+                        </div>                        
+                    </div>
+                    
+                    <!-- Kolom Kanan: Grid Navigasi Produk -->
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="content">
+                            <div class="grid">
+                                
+                                <!-- Menu 1: Tentang Kebersihan Kulit (Effaclar) -->
+                                <div class="grid__item" id="home-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-pump-soap fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">Effaclar Series</span>
+                                            <div class="product__bg"></div>        
+                                        </div>                                    
+                                        <div class="product__description">
+                                            <div class="row mb-3">
+                                                <div class="col-12">
+                                                    <h2 class="tm-page-title">Effaclar: Solusi Kulit Berjerawat</h2>        
+                                                </div>
+                                            </div>                                        
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <img src="img/effaclar.jpeg" class="img-fluid mb-3" alt="Effaclar Duo" onerror="this.src='https://via.placeholder.com/300x200/007bc4/ffffff?text=Effaclar+Duo'">
+                                                    <p>Lawan jerawat, komedo, dan penyumbatan pori-pori dengan <span class="text-brand">Effaclar Duo(+)</span>. Gel-pelembap dual-aksi yang mengurangi noda jerawat dalam waktu cepat.</p>
+                                                </div>
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <p>Diformulasikan khusus dengan Salicylic Acid dan LHA untuk eksfoliasi lembut tanpa merusak lapisan pelindung kulit Anda.</p>
+                                                    <p>Gunakan juga <span class="text-brand">Effaclar Purifying Foaming Gel</span> setiap pagi dan malam untuk hasil pembersihan yang optimal.</p>
+                                                </div>                                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Menu 2: Perbaikan Skin Barrier (Cicaplast) -->
+                                <div class="grid__item" id="team-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-hand-holding-medical fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">Cicaplast Balm</span>
+                                            <div class="product__bg"></div>            
+                                        </div>                                     
+                                        <div class="product__description">
+                                            <div class="p-sm-4 p-2">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">Cicaplast: Pertolongan Pertama Skin Barrier</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row tm-reverse-sm">
+                                                    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                                        <p class="mb-4">Mengalami kemerahan, iritasi, atau kulit terkelupas? <span class="text-brand">Cicaplast Baume B5+</span> adalah krim serbaguna yang mempercepat perbaikan barrier kulit yang sensitif dan stres.</p>
+                                                        <p class="mb-4">Diperkaya dengan **Madecassoside**, **Panthenol (Vitamin B5)**, dan agen anti-bakteri untuk menenangkan sekaligus melindungi area kulit yang bermasalah.</p>
+                                                        <a href="#" class="btn btn-primary tm-btn-submit">Pelajari Formula B5+</a>        
+                                                    </div>                                                
+                                                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4">
+                                                        <img src="img/cica 2.jpeg" class="img-fluid" alt="Cicaplast Baume" onerror="this.src='https://via.placeholder.com/200x200/007bc4/ffffff?text=Cicaplast+B5'">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Menu 3: Proteksi Sinar UV (Anthelios) -->
+                                <div class="grid__item">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-sun fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">Anthelios UV</span>
+                                            <div class="product__bg"></div>            
+                                        </div>                                                                                                                 
+                                        <div class="product__description">
+                                            <div class="p-sm-4 p-2">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">Anthelios: Tabir Surya Perlindungan Tertinggi</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <p><span class="text-brand">Anthelios UVMune 400</span> membawa standar baru dalam perlindungan UV. Menggunakan filter inovatif *Mexoryl 400* untuk menangkal sinar Ultra-Long UVA yang paling merusak sel kulit.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p class="mb-3">Tekstur cair yang sangat ringan, tidak lengket, tidak meninggalkan white-cast, serta tahan terhadap air dan keringat.</p>
+                                                        <!-- Slider Galeri Produk Anthelios -->
+                                                        <div class="p-sm-4 p-2 tm-img-container">
+                                                            <div class="tm-img-slider" id="tmImgSlider">
+                                                                <a href="#" class="tm-slider-img-link"><img src="img/Anthelios Fluid.jpeg" alt="Anthelios Fluid" class="img-fluid tm-slider-img"></a>
+                                                                <a href="#" class="tm-slider-img-link"><img src="img/Anthelios Gel.jpeg" alt="Anthelios Gel" class="img-fluid tm-slider-img"></a>
+                                                                <a href="#" class="tm-slider-img-link"><img src="img/cica 7.jpeg" alt="Anthelios Cream" class="img-fluid tm-slider-img"></a>
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div>
+
+                                <!-- Menu 4: Konsultasi & Pembelian -->
+                                <div class="grid__item">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-user-md fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">Dermo-Consult</span>
+                                            <div class="product__bg"></div>            
+                                        </div>                                                                             
+                                        <div class="product__description">
+                                            <div class="pt-sm-4 pb-sm-4 pl-sm-5 pr-sm-5 pt-2 pb-2 pl-3 pr-3">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">Hubungi Pakar Kulit Kami</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4">
+                                                    <div class="col-12">
+                                                        <p>Punya pertanyaan seputar kondisi kulit Anda (eczema, jerawat parah, atau kulit super sensitif)? Kirimkan pesan Anda untuk mendapatkan rekomendasi produk yang tepat.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <form action="#" method="post" class="contact-form">
+                                                            <div class="row">
+                                                                <div class="form-group col-md-6 col-lg-6 col-xl-6">
+                                                                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Nama Anda" required/>
+                                                                </div>
+                                                                <div class="form-group col-md-6 col-lg-6 col-xl-6 tm-col-email">
+                                                                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required/>
+                                                                </div>
+                                                            </div>                                                        
+                                                            <div class="form-group">
+                                                                <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Ceritakan kondisi atau keluhan kulit Anda di sini..." required></textarea>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-primary tm-btn-submit" style="background-color: #007bc4; border-color: #007bc4;">Kirim Konsultasi</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div> 
+                        </div>                       
+                    </div>
+                </div>                
+            </div>
+            
+            <footer>
+                <p class="small tm-copyright-text">Copyright &copy; <span class="tm-current-year">2026</span> La Roche-Posay Showcase. 
+                Design Layout: <a rel="nofollow" href="https://www.tooplate.com" class="tm-text-highlight">Tooplate</a></p>
+            </footer>
+        </div> 
+    </div>
+   
+    <!-- JavaScript Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>                 
+    <script src="js/anime.min.js"></script>                     
+    <script src="js/main.js"></script>  
+    <script>      
+        function setupFooter() {
+            var pageHeight = $('.tm-site-header-container').height() + $('footer').height() + 100;
+            var main = $('.tm-main-content');
+
+            if($(window).height() < pageHeight) {
+                main.addClass('tm-footer-relative');
+            }
+            else {
+                main.removeClass('tm-footer-relative');   
+            }
+        }
+
+        $(function(){
+            setupFooter();
+            $(window).resize(function(){
+                setupFooter();
+            });
+            $('.tm-current-year').text(new Date().getFullYear());             
+        });
+    </script>            
+</body>
+</html>
